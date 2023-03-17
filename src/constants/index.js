@@ -15,9 +15,10 @@ import {
 	polban,
 	nesas,
 	protonema,
-	carrent,
-	jobit,
-	tripguide,
+	wheater,
+	oms,
+	tnps,
+	movie,
 	laravel,
 	php,
 } from '../assets';
@@ -187,30 +188,9 @@ const testimonials = [
 
 const projects = [
 	{
-		name: 'Car Rent',
+		name: 'Wether App',
 		description:
-			'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
-		tags: [
-			{
-				name: 'react',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'mongodb',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'tailwind',
-				color: 'pink-text-gradient',
-			},
-		],
-		image: carrent,
-		source_code_link: 'https://github.com/',
-	},
-	{
-		name: 'Job IT',
-		description:
-			'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+			'Web-based platform that allows users to check whether condition in their area',
 		tags: [
 			{
 				name: 'react',
@@ -221,34 +201,80 @@ const projects = [
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'scss',
+				name: 'css-styling',
 				color: 'pink-text-gradient',
 			},
 		],
-		image: jobit,
-		source_code_link: 'https://github.com/',
+		image: wheater,
+		isSecure: true,
+		source_code_link: 'https://github.com/muhammadHeiwa/axios-whether',
 	},
 	{
-		name: 'Trip Guide',
+		name: 'Ordering Management System',
 		description:
-			'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+			'Web application that enables users to order our products and monitor their order with super easy interface to use',
 		tags: [
 			{
-				name: 'nextjs',
+				name: 'react',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'supabase',
+				name: 'restapi',
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'css',
+				name: 'expressjs',
 				color: 'pink-text-gradient',
 			},
 		],
-		image: tripguide,
+		image: oms,
+		isSecure: false,
 		source_code_link: 'https://github.com/',
 	},
+	{
+		name: 'Transactional Network Promoter Score',
+		description:
+			'Web application that can handle tNPS survey for your brand project, so you can see how people think about your brand',
+		tags: [
+			{
+				name: 'laravel',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'lumen',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'jquery',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: tnps,
+		isSecure: false,
+		source_code_link: 'https://github.com/',
+	},
+	// {
+	// 	name: 'IMDb List',
+	// 	description:
+	// 		'Web-based platform that can giving you list of all the movie from time to time',
+	// 	tags: [
+	// 		{
+	// 			name: 'laravel',
+	// 			color: 'blue-text-gradient',
+	// 		},
+	// 		{
+	// 			name: 'lumen',
+	// 			color: 'green-text-gradient',
+	// 		},
+	// 		{
+	// 			name: 'jquery',
+	// 			color: 'pink-text-gradient',
+	// 		},
+	// 	],
+	// 	image: movie,
+	// 	isSecure: false,
+	// 	source_code_link: 'https://github.com/',
+	// },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -27,9 +27,10 @@ import polban from './company/polban.png';
 import nesas from './company/nesas.png';
 import protonema from './company/proto.png';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
+import wheater from './wheater.png';
+import oms from './oms.png';
+import tnps from './tnps.png';
+import movie from './movie.png';
 
 export {
 	logo,
@@ -58,7 +59,8 @@ export {
 	polban,
 	nesas,
 	protonema,
-	carrent,
-	jobit,
-	tripguide,
+	wheater,
+	oms,
+	tnps,
+	movie,
 };
