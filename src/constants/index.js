@@ -234,7 +234,7 @@ const projects = [
 	{
 		name: 'Transactional Network Promoter Score',
 		description:
-			'Web application that can handle tNPS survey for your brand project, so you can see how people think about your brand',
+			'Web application that can handle tNPS survey for your microservices application, so you can see what people think about your products',
 		tags: [
 			{
 				name: 'laravel',
