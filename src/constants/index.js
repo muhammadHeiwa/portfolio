@@ -18,9 +18,11 @@ import {
 	wheater,
 	oms,
 	tnps,
-	movie,
 	laravel,
 	php,
+	flutter,
+	nextjs,
+	starship,
 } from '../assets';
 
 export const navLinks = [
@@ -39,13 +41,17 @@ export const navLinks = [
 ];
 
 const services = [
+	// {
+	// 	title: 'Web Developer',
+	// 	icon: web,
+	// },
 	{
-		title: 'Web Developer',
-		icon: web,
+		title: 'Software Engineer',
+		icon: mobile,
 	},
 	{
-		title: '12th Grade Student',
-		icon: mobile,
+		title: 'Frontend Developer',
+		icon: web,
 	},
 	// {
 	// 	title: 'Backend Developer',
@@ -98,61 +104,55 @@ const technologies = [
 		name: 'Laravel',
 		icon: laravel,
 	},
-	// {
-	// 	name: 'MongoDB',
-	// 	icon: mongodb,
-	// },
-	// {
-	// 	name: 'Three JS',
-	// 	icon: threejs,
-	// },
+	{
+		name: 'Flutter',
+		icon: flutter,
+	},
+	{
+		name: 'Next JS',
+		icon: nextjs,
+	},
 	{
 		name: 'git',
 		icon: git,
 	},
-	// {
-	// 	name: 'figma',
-	// 	icon: figma,
-	// },
-	// {
-	// 	name: 'docker',
-	// 	icon: docker,
-	// },
 ];
 
 const experiences = [
 	{
-		title: 'Code Igniter Developer',
+		title: 'Apprentice Developer',
 		company_name: 'Politeknik Negeri Bandung',
 		icon: polban,
 		iconBg: '#383E56',
 		date: 'January 2022 - Maret 2022',
 		points: [
+			'With apprentice program from my highschool, i have a change to develop or maintaince some software application',
 			'Developing and maintaining web applications using Code Igniter and other related technologies.',
 			'Collaborating with cross-functional teams including network engineering, IT supervisor, and other developers to create high-quality products.',
 			'Implementing responsive design and ensuring cross-browser compatibility.',
 		],
 	},
 	{
-		title: 'Code Igniter Developer',
+		title: 'Apprentice Developer',
 		company_name: 'Maintenance Repairing Calibration',
 		icon: nesas,
 		iconBg: '#383E56',
 		date: 'March 2022 - June 2022',
 		points: [
+			'With apprentice program from my highschool, i have a change to develop or maintaince some software application',
 			'Developing and maintaining web applications using Code Igniter and other related technologies.',
 			"Create some software applications for the team's convenience",
 			'Implementing responsive design and ensuring cross-browser compatibility.',
 		],
 	},
 	{
-		title: 'Frontend Web Developer',
-		company_name: 'Protonema',
+		title: 'Frontend Developer',
+		company_name: 'PT. Protonema',
 		icon: protonema,
 		iconBg: '#383E56',
 		date: 'August 2022 - Present',
 		points: [
-			'Developing and maintaining web applications using React.js, Laravel, and other related technologies.',
+			'Developing and maintaining sofware applications using various stack such as React.js, Laravel, Flutter, and other related technologies.',
 			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
 			'Implementing responsive design and ensuring cross-browser compatibility.',
 		],
@@ -253,28 +253,28 @@ const projects = [
 		isSecure: false,
 		source_code_link: 'https://github.com/',
 	},
-	// {
-	// 	name: 'IMDb List',
-	// 	description:
-	// 		'Web-based platform that can giving you list of all the movie from time to time',
-	// 	tags: [
-	// 		{
-	// 			name: 'laravel',
-	// 			color: 'blue-text-gradient',
-	// 		},
-	// 		{
-	// 			name: 'lumen',
-	// 			color: 'green-text-gradient',
-	// 		},
-	// 		{
-	// 			name: 'jquery',
-	// 			color: 'pink-text-gradient',
-	// 		},
-	// 	],
-	// 	image: movie,
-	// 	isSecure: false,
-	// 	source_code_link: 'https://github.com/',
-	// },
+	{
+		name: 'Starship Monitoring Apps',
+		description:
+			'Web application to monitor state of the ship you have, either in sailing or maintenace status. You can also see the status, load progress, even condition from your ship',
+		tags: [
+			{
+				name: 'nextjs',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'react',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'tailwind',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: starship,
+		isSecure: false,
+		source_code_link: 'https://github.com/',
+	},
 ];
 
 export { services, technologies, experiences, testimonials, projects };

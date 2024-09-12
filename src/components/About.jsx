@@ -1,5 +1,5 @@
 import React from 'react';
-import Tilt from 'react-tilt';
+import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
@@ -48,10 +48,7 @@ const About = () => {
 				variants={fadeIn('', '', 0.1, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
 			>
-				I am a 12th grade student at a vocational high school SMKN 1 Subang. Due
-				to cooperation from the school, I am currently able to work at the IT
-				company PT. Protonema to gain experience in working in the technology
-				field
+				I am a Junior Software Engineer and a student at Telkom University. With a strong interest in technology, I am eager to learn more about the latest advancements and aspire to contribute to creating technology that can benefit many people.
 			</motion.p>
 
 			<div className="mt-20 flex flex-wrap gap-10 justify-evenly">

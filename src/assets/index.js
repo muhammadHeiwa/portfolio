@@ -22,15 +22,18 @@ import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
 import php from './tech/php.svg';
 import laravel from './tech/laravel.png';
+import flutter from './tech/flutter.png';
+import nextjs from './tech/nextjs.png';
 
 import polban from './company/polban.png';
 import nesas from './company/nesas.png';
 import protonema from './company/proto.png';
 
-import wheater from './wheater.png';
-import oms from './oms.png';
-import tnps from './tnps.png';
-import movie from './movie.png';
+import wheater from './project/wheater.png';
+import oms from './project/oms.png';
+import tnps from './project/tnps.png';
+import movie from './project/movie.png';
+import starship from './project/starship.jpg';
 
 export {
 	logo,
@@ -56,6 +59,8 @@ export {
 	threejs,
 	php,
 	laravel,
+	flutter,
+	nextjs,
 	polban,
 	nesas,
 	protonema,
@@ -63,4 +68,5 @@ export {
 	oms,
 	tnps,
 	movie,
+	starship,
 };
